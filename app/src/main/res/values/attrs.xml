@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BeamTextView">
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="lightColor" format="color"/>
+        <attr name="beamRadius" format="dimension"/>
+        <attr name="speed" format="enum">
+            <enum name="high" value="2"/>
+            <enum name="normal" value="1"/>
+            <enum name="low" value="0"/>
+        </attr>
+    </declare-styleable>
+</resources>
